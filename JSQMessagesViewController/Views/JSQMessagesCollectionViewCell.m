@@ -108,7 +108,7 @@
     self.cellTopLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     self.cellTopLabel.textColor = [UIColor lightGrayColor];
     
-    self.messageBubbleTopLabel.font = [UIFont systemFontOfSize:12.0f];
+    self.messageBubbleTopLabel.font = [UIFont boldSystemFontOfSize:14.0f];
     self.messageBubbleTopLabel.textColor = [UIColor lightGrayColor];
     
     self.cellBottomLabel.font = [UIFont systemFontOfSize:11.0f];
