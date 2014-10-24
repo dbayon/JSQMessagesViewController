@@ -189,8 +189,9 @@
     
     self.textViewFrameInsets = customAttributes.textViewFrameInsets;
 
-    [self jsq_updateConstraint:self.messageBubbleLeftRightMarginConstraint
-                  withConstant:customAttributes.messageBubbleLeftRightMargin];
+//    [self jsq_updateConstraint:self.messageBubbleLeftRightMarginConstraint
+//                  withConstant:customAttributes.messageBubbleLeftRightMargin];
+    [self jsq_updateConstraint:self.messageBubbleLeftRightMarginConstraint withConstant:75.0];
     
     [self jsq_updateConstraint:self.cellTopLabelHeightConstraint
                   withConstant:customAttributes.cellTopLabelHeight];
