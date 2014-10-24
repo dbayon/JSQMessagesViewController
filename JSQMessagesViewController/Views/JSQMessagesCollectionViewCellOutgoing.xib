@@ -35,13 +35,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2zh-vR-QJW" userLabel="Bubble container">
-                        <rect key="frame" x="40" y="40" width="244" height="94"/>
+                        <rect key="frame" x="60" y="40" width="224" height="94"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2qm-c6-OZf" userLabel="Bubble Image View">
-                                <rect key="frame" x="0.0" y="0.0" width="244" height="94"/>
+                                <rect key="frame" x="0.0" y="0.0" width="224" height="94"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLY-aM-0Dr">
-                                <rect key="frame" x="0.0" y="0.0" width="238" height="94"/>
+                                <rect key="frame" x="0.0" y="0.0" width="218" height="94"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -104,7 +104,7 @@
                 <constraint firstItem="p52-YN-yLu" firstAttribute="top" secondItem="jxM-YD-sVG" secondAttribute="bottom" id="jBD-JV-AWk"/>
                 <constraint firstItem="jxM-YD-sVG" firstAttribute="leading" secondItem="23f-xH-rkY" secondAttribute="leading" id="qeB-G5-1Wq"/>
                 <constraint firstItem="p52-YN-yLu" firstAttribute="leading" secondItem="23f-xH-rkY" secondAttribute="leading" id="tTj-Mp-0va"/>
-                <constraint firstItem="2zh-vR-QJW" firstAttribute="leading" secondItem="23f-xH-rkY" secondAttribute="leading" constant="40" id="tya-FG-SP6"/>
+                <constraint firstItem="2zh-vR-QJW" firstAttribute="leading" secondItem="23f-xH-rkY" secondAttribute="leading" constant="60" id="tya-FG-SP6"/>
                 <constraint firstItem="X89-B1-aAd" firstAttribute="leading" secondItem="2zh-vR-QJW" secondAttribute="trailing" constant="2" id="vMz-Yi-B0w"/>
             </constraints>
             <size key="customSize" width="317" height="245"/>

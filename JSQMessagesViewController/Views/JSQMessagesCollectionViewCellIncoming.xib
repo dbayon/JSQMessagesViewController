@@ -35,13 +35,13 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="btS-p8-B7Z" userLabel="Bubble container">
-                        <rect key="frame" x="36" y="40" width="244" height="94"/>
+                        <rect key="frame" x="36" y="40" width="224" height="94"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OCS-Fu-acq" userLabel="Bubble Image View">
-                                <rect key="frame" x="0.0" y="0.0" width="244" height="94"/>
+                                <rect key="frame" x="0.0" y="0.0" width="224" height="94"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KYU-B8-cUW">
-                                <rect key="frame" x="6" y="0.0" width="238" height="94"/>
+                                <rect key="frame" x="6" y="0.0" width="218" height="94"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -102,7 +102,7 @@
                 <constraint firstItem="btS-p8-B7Z" firstAttribute="leading" secondItem="Da1-09-wR4" secondAttribute="trailing" constant="2" id="j0I-pm-eex"/>
                 <constraint firstItem="btS-p8-B7Z" firstAttribute="top" secondItem="Ufa-bF-l1Y" secondAttribute="bottom" id="jAu-Dn-7rN"/>
                 <constraint firstItem="Da1-09-wR4" firstAttribute="leading" secondItem="4lh-CK-yVn" secondAttribute="leading" id="jiu-B4-TSD"/>
-                <constraint firstAttribute="trailing" secondItem="btS-p8-B7Z" secondAttribute="trailing" constant="40" id="k2n-jk-kOg"/>
+                <constraint firstAttribute="trailing" secondItem="btS-p8-B7Z" secondAttribute="trailing" constant="60" id="k2n-jk-kOg"/>
                 <constraint firstAttribute="bottom" secondItem="UPz-5x-c1T" secondAttribute="bottom" id="nsK-Gh-M3Z"/>
                 <constraint firstItem="UPz-5x-c1T" firstAttribute="top" secondItem="btS-p8-B7Z" secondAttribute="bottom" id="s8G-Je-7GA"/>
             </constraints>
