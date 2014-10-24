@@ -114,7 +114,8 @@
     self.cellBottomLabel.font = [UIFont systemFontOfSize:11.0f];
     self.cellBottomLabel.textColor = [UIColor lightGrayColor];
     
-    self.textView.textColor = [UIColor whiteColor];
+//    self.textView.textColor = [UIColor whiteColor];
+    self.textView.textColor = [UIColor blackColor];
     self.textView.editable = NO;
     self.textView.selectable = YES;
     self.textView.userInteractionEnabled = YES;
