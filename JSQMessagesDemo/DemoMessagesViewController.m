@@ -404,6 +404,7 @@
         JSQMessage *message = [self.demoData.messages objectAtIndex:indexPath.item];
         return [[JSQMessagesTimestampFormatter sharedFormatter] attributedTimestampForDate:message.date];
     }
+    //Aqui meter logica para meter la fecha del dia si es diferente al mensaje anterior y en la primera
     
     return nil;
 }
@@ -475,6 +476,8 @@
         else {
             cell.textView.textColor = [UIColor whiteColor];
         }
+        
+        [cell.time_label setText:@"msgTime"];
         
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : cell.textView.textColor,
                                               NSUnderlineStyleAttributeName : @(NSUnderlineStyleSingle | NSUnderlinePatternSolid) };

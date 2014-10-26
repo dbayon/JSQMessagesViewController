@@ -124,6 +124,11 @@
  */
 @property (weak, nonatomic, readonly) UIView *messageBubbleContainerView;
 
+/*
+ Label to show time of message. Without content by default. Set text on cellForItemAtIndexPath on viewController
+ */
+@property (weak, nonatomic) IBOutlet UILabel *time_label;
+
 /**
  *  Returns the avatar image view of the cell that is responsible for displaying avatar images.
  */
