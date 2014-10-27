@@ -50,7 +50,7 @@
         [_dateFormatter setLocale:[NSLocale currentLocale]];
         [_dateFormatter setDoesRelativeDateFormatting:YES];
         
-        UIColor *color = [UIColor lightGrayColor];
+        UIColor *color = [UIColor blackColor];
         
         NSMutableParagraphStyle *paragraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
         paragraphStyle.alignment = NSTextAlignmentCenter;
@@ -93,9 +93,10 @@
     }
     
     NSString *relativeDate = [self relativeDateForDate:date];
+    NSString *relativeDateCapitalized = relativeDate.capitalizedString;
     NSString *time = [self timeForDate:date];
     
-    NSMutableAttributedString *timestamp = [[NSMutableAttributedString alloc] initWithString:relativeDate
+    NSMutableAttributedString *timestamp = [[NSMutableAttributedString alloc] initWithString:relativeDateCapitalized
                                                                                   attributes:self.dateTextAttributes];
     
     [timestamp appendAttributedString:[[NSAttributedString alloc] initWithString:@" "]];
