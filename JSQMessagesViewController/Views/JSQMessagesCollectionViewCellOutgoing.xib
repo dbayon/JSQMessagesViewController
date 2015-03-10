@@ -88,9 +88,9 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k9-Xq-QtU">
-                        <rect key="frame" x="8" y="36" width="52" height="21"/>
+                        <rect key="frame" x="8" y="36" width="44" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="52" id="Mnm-AP-grW"/>
+                            <constraint firstAttribute="width" constant="44" id="Mnm-AP-grW"/>
                             <constraint firstAttribute="height" constant="21" id="oip-DH-CY1"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -108,7 +108,7 @@
                 <constraint firstItem="jxM-YD-sVG" firstAttribute="top" secondItem="23f-xH-rkY" secondAttribute="top" id="HYT-Tw-whz"/>
                 <constraint firstAttribute="trailing" secondItem="X89-B1-aAd" secondAttribute="trailing" id="KLt-Ix-wDa"/>
                 <constraint firstItem="7Uc-dI-YDD" firstAttribute="top" secondItem="2zh-vR-QJW" secondAttribute="bottom" id="Ngq-ew-t2K"/>
-                <constraint firstItem="2zh-vR-QJW" firstAttribute="leading" secondItem="4k9-Xq-QtU" secondAttribute="trailing" id="cDa-F8-XEQ"/>
+                <constraint firstItem="2zh-vR-QJW" firstAttribute="leading" secondItem="4k9-Xq-QtU" secondAttribute="trailing" constant="8" id="cDa-F8-XEQ"/>
                 <constraint firstItem="7Uc-dI-YDD" firstAttribute="leading" secondItem="23f-xH-rkY" secondAttribute="leading" id="fiS-g3-X16"/>
                 <constraint firstAttribute="bottom" secondItem="7Uc-dI-YDD" secondAttribute="bottom" id="gXo-9b-b1W"/>
                 <constraint firstAttribute="trailing" secondItem="p52-YN-yLu" secondAttribute="trailing" id="gen-N0-uZj"/>
