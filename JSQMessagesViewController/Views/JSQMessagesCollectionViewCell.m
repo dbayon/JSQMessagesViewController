@@ -96,7 +96,7 @@
     [self.messageBubbleContainerView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.avatarContainerView setTranslatesAutoresizingMaskIntoConstraints:NO];
     
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor clearColor];
     
     self.cellTopLabelHeightConstraint.constant = 0.0f;
     self.messageBubbleTopLabelHeightConstraint.constant = 0.0f;
