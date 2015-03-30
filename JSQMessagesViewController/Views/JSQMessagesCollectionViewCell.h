@@ -160,6 +160,13 @@
  */
 @property (weak, nonatomic, readonly) UITapGestureRecognizer *tapGestureRecognizer;
 
+
+/**
+ * used for display a triangle in the mid of the view 
+ */
+@property (weak, nonatomic) IBOutlet UIImageView *triangelmageView;
+
+
 #pragma mark - Class methods
 
 /**
