@@ -151,6 +151,12 @@
 @property (weak, nonatomic) UIView *mediaView;
 
 /**
+ * hour label
+ */
+@property (weak, nonatomic) IBOutlet UILabel *hourLabel;
+
+
+/**
  *  Returns the underlying gesture recognizer for tap gestures in the avatarImageView of the cell.
  *  This gesture handles the tap event for the avatarImageView and notifies the cell's delegate.
  */
