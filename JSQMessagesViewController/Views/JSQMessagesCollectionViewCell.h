@@ -125,6 +125,11 @@
  */
 @property (weak, nonatomic, readonly) UIView *messageBubbleContainerView;
 
+/*
+ Label to show time of message. Without content by default. Set text on cellForItemAtIndexPath on viewController
+ */
+@property (weak, nonatomic) IBOutlet UILabel *time_label;
+
 /**
  *  Returns the avatar image view of the cell that is responsible for displaying avatar images.
  */
@@ -155,6 +160,13 @@
  *  This gesture handles the tap event for the avatarImageView and notifies the cell's delegate.
  */
 @property (weak, nonatomic, readonly) UITapGestureRecognizer *tapGestureRecognizer;
+
+
+/**
+ * used for display a triangle in the mid of the view 
+ */
+@property (weak, nonatomic) IBOutlet UIImageView *triangelmageView;
+
 
 #pragma mark - Class methods
 

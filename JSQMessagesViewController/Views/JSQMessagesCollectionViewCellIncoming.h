@@ -23,5 +23,7 @@
  *  of `JSQMessagesCollectionViewCell` that represents an incoming message data item.
  */
 @interface JSQMessagesCollectionViewCellIncoming : JSQMessagesCollectionViewCell
+@property (unsafe_unretained, nonatomic) IBOutlet UIImageView *spikeImage;
+
 
 @end
