@@ -51,6 +51,8 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 @interface JSQMessagesViewController () <JSQMessagesInputToolbarDelegate,
                                          JSQMessagesKeyboardControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UIView *timeView;
+
 @property (weak, nonatomic) IBOutlet JSQMessagesCollectionView *collectionView;
 @property (weak, nonatomic) IBOutlet JSQMessagesInputToolbar *inputToolbar;
 
@@ -530,7 +532,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 
     cell.textView.dataDetectorTypes = UIDataDetectorTypeAll;
 
-    cell.backgroundColor = [UIColor clearColor];
+    cell.backgroundColor = [UIColor clearColor];//this color is bg color. its ok
     cell.layer.rasterizationScale = [UIScreen mainScreen].scale;
     cell.layer.shouldRasterize = YES;
 
@@ -1028,4 +1030,11 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     }
 }
 
+#pragma customize vc
+-(void)setTimeLineColor:(UIColor*)color{
+    if (!color) {
+        return;
+    }
+    [_timeView setBackgroundColor:color];
+}
 @end

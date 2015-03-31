@@ -55,6 +55,21 @@
     return [UIImage imageWithContentsOfFile:path];
 }
 
++ (UIImage *)jsq_bubbleImageWithName:(NSString *)name{
+    return [UIImage imageNamed:name];
+}
+
+
+
++ (UIImage *)jsq_bubbleCustomImage{
+    return [UIImage jsq_bubbleImageWithName:@"bubble_min_tailless_custom"];
+}
+
++ (UIImage *)jsq_bubbleCustomLargeImage{
+    return [UIImage jsq_bubbleImageWithName:@"bubble_min_tailless_custom_large"];
+}
+
+
 + (UIImage *)jsq_bubbleRegularImage
 {
     return [UIImage jsq_bubbleImageFromBundleWithName:@"bubble_regular"];

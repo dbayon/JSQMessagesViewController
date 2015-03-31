@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */; };
+		1480C6FF1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */; };
+		1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */; };
+		1480C7041ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C7011ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png */; };
+		1480C7051ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C7021ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png */; };
+		1480C7061ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C7031ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png */; };
 		36CF33BD29CF36EB06D0CCFD /* libPods-JSQMessagesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782026E9E518622532ED474D /* libPods-JSQMessagesTests.a */; };
 		77CC17A895E6E12BC9CB549A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E6750B77E8A7042BA0754B /* libPods.a */; };
 		88078A9D19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88078A9C19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.m */; };
@@ -120,6 +126,12 @@
 
 /* Begin PBXFileReference section */
 		0844AD596023C7658D39E241 /* Pods-JSQMessagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQMessagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSQMessagesTests/Pods-JSQMessagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_min_tailless_custom.png; sourceTree = "<group>"; };
+		1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@2x.png"; sourceTree = "<group>"; };
+		1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@3x.png"; sourceTree = "<group>"; };
+		1480C7011ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_min_tailless_custom_large.png; sourceTree = "<group>"; };
+		1480C7021ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom_large@2x.png"; sourceTree = "<group>"; };
+		1480C7031ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom_large@3x.png"; sourceTree = "<group>"; };
 		223FBACE0F24ADEF8B7F3F24 /* Pods-JSQMessagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQMessagesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSQMessagesTests/Pods-JSQMessagesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		27B7FD1B722B36B26CB3460B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		782026E9E518622532ED474D /* libPods-JSQMessagesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSQMessagesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -415,6 +427,12 @@
 		88A25F3F19D8E01A00924534 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1480C7011ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png */,
+				1480C7021ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png */,
+				1480C7031ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png */,
+				1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */,
+				1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */,
+				1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */,
 				8861666C19F492B70025B958 /* JSQMessagesAssets.bundle */,
 			);
 			path = Assets;
@@ -715,13 +733,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				886C33FF19F45E30006B4997 /* JSQMessagesViewController.podspec in Resources */,
+				1480C6FF1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png in Resources */,
 				8861666D19F492B70025B958 /* JSQMessagesAssets.bundle in Resources */,
 				88A25FCF19D8E01A00924534 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
+				1480C7051ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png in Resources */,
 				88A25FCD19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
 				88A25FD619D8E01A00924534 /* JSQMessagesToolbarContentView.xib in Resources */,
 				88A25F3A19D8DF2500924534 /* Images.xcassets in Resources */,
+				1480C7061ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png in Resources */,
+				1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */,
+				1480C7041ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png in Resources */,
 				88A25FBC19D8E01A00924534 /* JSQMessagesViewController.xib in Resources */,
 				88A25FD819D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
+				1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */,
 				88A25F3919D8DF2500924534 /* Main.storyboard in Resources */,
 				88A25FD419D8E01A00924534 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 			);

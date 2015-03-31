@@ -76,4 +76,10 @@
  */
 + (UIImage *)jsq_defaultPlayImage;
 
+/**
+ * custom image
+ */
++ (UIImage *)jsq_bubbleCustomImage;
++ (UIImage *)jsq_bubbleCustomLargeImage;
+
 @end
