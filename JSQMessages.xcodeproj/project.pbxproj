@@ -13,6 +13,12 @@
 		1483D6601AC9B11E0051A89F /* triangle_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483D65D1AC9B11E0051A89F /* triangle_left.png */; };
 		1483D6611AC9B11E0051A89F /* triangle_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483D65E1AC9B11E0051A89F /* triangle_left@2x.png */; };
 		1483D6621AC9B11E0051A89F /* triangle_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1483D65F1AC9B11E0051A89F /* triangle_left@3x.png */; };
+		14CC50531ACA939C0024F0BC /* triangle_incoming.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC504D1ACA939C0024F0BC /* triangle_incoming.png */; };
+		14CC50541ACA939C0024F0BC /* triangle_incoming@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC504E1ACA939C0024F0BC /* triangle_incoming@2x.png */; };
+		14CC50551ACA939C0024F0BC /* triangle_incoming@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC504F1ACA939C0024F0BC /* triangle_incoming@3x.png */; };
+		14CC50561ACA939C0024F0BC /* triangle_outgoing.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC50501ACA939C0024F0BC /* triangle_outgoing.png */; };
+		14CC50571ACA939C0024F0BC /* triangle_outgoing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC50511ACA939C0024F0BC /* triangle_outgoing@2x.png */; };
+		14CC50581ACA939C0024F0BC /* triangle_outgoing@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14CC50521ACA939C0024F0BC /* triangle_outgoing@3x.png */; };
 		36CF33BD29CF36EB06D0CCFD /* libPods-JSQMessagesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 782026E9E518622532ED474D /* libPods-JSQMessagesTests.a */; };
 		77CC17A895E6E12BC9CB549A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E6750B77E8A7042BA0754B /* libPods.a */; };
 		88078A9D19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88078A9C19D8FEB5005B4595 /* JSQMessagesMediaPlaceholderView.m */; };
@@ -130,6 +136,12 @@
 		1483D65D1AC9B11E0051A89F /* triangle_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle_left.png; path = res/triangle_left.png; sourceTree = "<group>"; };
 		1483D65E1AC9B11E0051A89F /* triangle_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_left@2x.png"; path = "res/triangle_left@2x.png"; sourceTree = "<group>"; };
 		1483D65F1AC9B11E0051A89F /* triangle_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_left@3x.png"; path = "res/triangle_left@3x.png"; sourceTree = "<group>"; };
+		14CC504D1ACA939C0024F0BC /* triangle_incoming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle_incoming.png; path = res/triangle_incoming.png; sourceTree = "<group>"; };
+		14CC504E1ACA939C0024F0BC /* triangle_incoming@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_incoming@2x.png"; path = "res/triangle_incoming@2x.png"; sourceTree = "<group>"; };
+		14CC504F1ACA939C0024F0BC /* triangle_incoming@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_incoming@3x.png"; path = "res/triangle_incoming@3x.png"; sourceTree = "<group>"; };
+		14CC50501ACA939C0024F0BC /* triangle_outgoing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle_outgoing.png; path = res/triangle_outgoing.png; sourceTree = "<group>"; };
+		14CC50511ACA939C0024F0BC /* triangle_outgoing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_outgoing@2x.png"; path = "res/triangle_outgoing@2x.png"; sourceTree = "<group>"; };
+		14CC50521ACA939C0024F0BC /* triangle_outgoing@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "triangle_outgoing@3x.png"; path = "res/triangle_outgoing@3x.png"; sourceTree = "<group>"; };
 		223FBACE0F24ADEF8B7F3F24 /* Pods-JSQMessagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQMessagesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSQMessagesTests/Pods-JSQMessagesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		27B7FD1B722B36B26CB3460B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		782026E9E518622532ED474D /* libPods-JSQMessagesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSQMessagesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -445,6 +457,12 @@
 		88A25F3F19D8E01A00924534 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				14CC504D1ACA939C0024F0BC /* triangle_incoming.png */,
+				14CC504E1ACA939C0024F0BC /* triangle_incoming@2x.png */,
+				14CC504F1ACA939C0024F0BC /* triangle_incoming@3x.png */,
+				14CC50501ACA939C0024F0BC /* triangle_outgoing.png */,
+				14CC50511ACA939C0024F0BC /* triangle_outgoing@2x.png */,
+				14CC50521ACA939C0024F0BC /* triangle_outgoing@3x.png */,
 				1483D65D1AC9B11E0051A89F /* triangle_left.png */,
 				1483D65E1AC9B11E0051A89F /* triangle_left@2x.png */,
 				1483D65F1AC9B11E0051A89F /* triangle_left@3x.png */,
@@ -748,10 +766,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC50571ACA939C0024F0BC /* triangle_outgoing@2x.png in Resources */,
 				1483D6621AC9B11E0051A89F /* triangle_left@3x.png in Resources */,
 				886C33FF19F45E30006B4997 /* JSQMessagesViewController.podspec in Resources */,
 				1483D6611AC9B11E0051A89F /* triangle_left@2x.png in Resources */,
+				14CC50541ACA939C0024F0BC /* triangle_incoming@2x.png in Resources */,
 				1483D65C1AC9AF2D0051A89F /* triangle@3x.png in Resources */,
+				14CC50561ACA939C0024F0BC /* triangle_outgoing.png in Resources */,
 				1483D65A1AC9AF2D0051A89F /* triangle.png in Resources */,
 				8861666D19F492B70025B958 /* JSQMessagesAssets.bundle in Resources */,
 				1483D65B1AC9AF2D0051A89F /* triangle@2x.png in Resources */,
@@ -759,12 +780,15 @@
 				88A25FCD19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
 				8841B88519F4988800EA16B6 /* JSQMessages.strings in Resources */,
 				88A25FD619D8E01A00924534 /* JSQMessagesToolbarContentView.xib in Resources */,
+				14CC50531ACA939C0024F0BC /* triangle_incoming.png in Resources */,
 				88A25F3A19D8DF2500924534 /* Images.xcassets in Resources */,
 				88A25FBC19D8E01A00924534 /* JSQMessagesViewController.xib in Resources */,
 				88A25FD819D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				1483D6601AC9B11E0051A89F /* triangle_left.png in Resources */,
+				14CC50581ACA939C0024F0BC /* triangle_outgoing@3x.png in Resources */,
 				88A25F3919D8DF2500924534 /* Main.storyboard in Resources */,
 				88A25FD419D8E01A00924534 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
+				14CC50551ACA939C0024F0BC /* triangle_incoming@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
