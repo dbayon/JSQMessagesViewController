@@ -60,13 +60,14 @@
                             <constraint firstItem="OCS-Fu-acq" firstAttribute="top" secondItem="btS-p8-B7Z" secondAttribute="top" id="zTa-8g-VY4"/>
                         </constraints>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4k-C9-Zbj">
-                        <rect key="frame" x="276" y="39" width="45" height="18"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="22:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4k-C9-Zbj">
+                        <rect key="frame" x="282" y="40" width="38" height="18"/>
+                        <color key="backgroundColor" red="0.96862745289999996" green="0.0" blue="0.037352252160000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="18" id="5LX-CK-L8D"/>
-                            <constraint firstAttribute="width" constant="45" id="UVV-8r-Um2"/>
+                            <constraint firstAttribute="width" constant="38" id="UVV-8r-Um2"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -117,7 +118,7 @@
                 <constraint firstItem="Da1-09-wR4" firstAttribute="leading" secondItem="4lh-CK-yVn" secondAttribute="leading" id="jiu-B4-TSD"/>
                 <constraint firstAttribute="bottom" secondItem="UPz-5x-c1T" secondAttribute="bottom" id="nsK-Gh-M3Z"/>
                 <constraint firstItem="UPz-5x-c1T" firstAttribute="top" secondItem="btS-p8-B7Z" secondAttribute="bottom" id="s8G-Je-7GA"/>
-                <constraint firstItem="btS-p8-B7Z" firstAttribute="top" secondItem="n4k-C9-Zbj" secondAttribute="top" constant="1" id="vcy-pN-4MY"/>
+                <constraint firstItem="btS-p8-B7Z" firstAttribute="top" secondItem="n4k-C9-Zbj" secondAttribute="top" id="vcy-pN-4MY"/>
             </constraints>
             <size key="customSize" width="317" height="245"/>
             <connections>
