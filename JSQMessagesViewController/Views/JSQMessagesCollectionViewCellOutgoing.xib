@@ -62,7 +62,7 @@
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Arg-Fk-XOT">
                         <rect key="frame" x="0.0" y="40" width="40" height="18"/>
-                        <color key="backgroundColor" red="0.96862745289999996" green="0.0" blue="0.037352252160000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="5aj-Fe-nEb"/>
                             <constraint firstAttribute="height" constant="18" id="X94-lZ-Idx"/>
