@@ -175,6 +175,12 @@ FOUNDATION_EXPORT const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault;
 @property (assign, nonatomic) NSUInteger cacheLimit;
 
 /**
+ *  The extra margin for left and right side of the cell, to avoid collide  with "extrangerous" UI elements
+ */
+@property (assign, nonatomic) NSUInteger extraMarginForHourLabel;
+
+
+/**
  *  Computes and returns the size of the `messageBubbleImageView` property of a `JSQMessagesCollectionViewCell`
  *  at the specified indexPath. The returned size contains the required dimensions to display the entire message contents. 
  *  Note, this is *not* the entire cell, but only its message bubble.

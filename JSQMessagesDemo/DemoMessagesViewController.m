@@ -39,6 +39,8 @@
     self.title = @"JSQMessages";
     [self setTimeLineColor:[UIColor greenColor]];
     
+    [self.collectionView.collectionViewLayout setExtraMarginForHourLabel:20];
+    
     /**
      *  You MUST set your senderId and display name
      */
@@ -423,9 +425,9 @@
     if (indexPath.item % 3 == 0) {
         JSQMessage *message = [self.demoData.messages objectAtIndex:indexPath.item];
         return [[JSQMessagesTimestampFormatter sharedFormatter] attributedTimestampForDate:message.date];
+    }else{
+        return [[NSAttributedString alloc]initWithString:@""];
     }
-    
-    return nil;
 }
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForMessageBubbleTopLabelAtIndexPath:(NSIndexPath *)indexPath
@@ -524,9 +526,11 @@
      */
     if (indexPath.item % 3 == 0) {
         return kJSQMessagesCollectionViewCellLabelHeightDefault;
+    }else{
+        return kJSQMessagesCollectionViewCellLabelHeightDefault;
     }
     
-    return 0.0f;
+    //return 0.0f;
 }
 
 - (CGFloat)collectionView:(JSQMessagesCollectionView *)collectionView

@@ -106,8 +106,8 @@
     self.cellTopLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     self.cellTopLabel.textColor = [UIColor lightGrayColor];
 
-    self.messageBubbleTopLabel.font = [UIFont systemFontOfSize:12.0f];
-    self.messageBubbleTopLabel.textColor = [UIColor lightGrayColor];
+    //self.messageBubbleTopLabel.font = [UIFont systemFontOfSize:12.0f];
+    //self.messageBubbleTopLabel.textColor = [UIColor lightGrayColor];
 
     self.cellBottomLabel.font = [UIFont systemFontOfSize:11.0f];
     self.cellBottomLabel.textColor = [UIColor lightGrayColor];
@@ -173,7 +173,7 @@
     }
 
     self.textViewFrameInsets = customAttributes.textViewFrameInsets;
-
+    
     [self jsq_updateConstraint:self.messageBubbleContainerWidthConstraint
                   withConstant:customAttributes.messageBubbleContainerViewWidth];
 
