@@ -267,5 +267,9 @@
  */
 -(void)setTimeLineColor:(UIColor*)color;
 
+- (void)setNavigationBarFont:(NSString*)fontName;
+@property (weak, nonatomic) IBOutlet UILabel *chatTitle;
+@property (weak, nonatomic) IBOutlet UIButton *chatBackButton;
+@property (weak, nonatomic) IBOutlet UILabel *backLbl;
 
 @end

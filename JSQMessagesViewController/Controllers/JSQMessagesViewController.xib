@@ -7,6 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JSQMessagesViewController">
             <connections>
+                <outlet property="backLbl" destination="31x-dv-CQJ" id="7Ie-Cg-Ii5"/>
+                <outlet property="chatBackButton" destination="cbg-kd-i8a" id="WRn-Gm-0EQ"/>
+                <outlet property="chatTitle" destination="Dd1-9t-8AE" id="yOP-iW-5Jw"/>
                 <outlet property="collectionView" destination="l9u-2b-4LK" id="bLP-6g-CkO"/>
                 <outlet property="inputToolbar" destination="BoD-Az-3DM" id="w74-g9-1qA"/>
                 <outlet property="timeView" destination="1Re-Cf-KbN" id="dnu-2g-Rei"/>
@@ -25,7 +28,7 @@
                     <color key="backgroundColor" red="0.86274509803921573" green="0.23529411764705882" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l9u-2b-4LK" customClass="JSQMessagesCollectionView">
-                    <rect key="frame" x="9" y="0.0" width="302" height="568"/>
+                    <rect key="frame" x="9" y="72" width="302" height="496"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <collectionViewLayout key="collectionViewLayout" id="dZl-7C-LHR" customClass="JSQMessagesCollectionViewFlowLayout"/>
                     <cells/>
@@ -39,17 +42,63 @@
                     <items/>
                     <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </toolbar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gXy-qN-3X1">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd1-9t-8AE">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="72"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31x-dv-CQJ">
+                            <rect key="frame" x="0.0" y="0.0" width="53" height="72"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="53" id="epr-Sl-Bd9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbg-kd-i8a">
+                            <rect key="frame" x="0.0" y="0.0" width="53" height="72"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="53" id="SAA-xr-zQe"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Dd1-9t-8AE" firstAttribute="top" secondItem="gXy-qN-3X1" secondAttribute="top" id="17C-UK-Q63"/>
+                        <constraint firstItem="cbg-kd-i8a" firstAttribute="top" secondItem="gXy-qN-3X1" secondAttribute="top" id="7sN-qA-vY7"/>
+                        <constraint firstAttribute="bottom" secondItem="cbg-kd-i8a" secondAttribute="bottom" id="8In-rR-w7Y"/>
+                        <constraint firstItem="Dd1-9t-8AE" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" id="DwN-4G-69D"/>
+                        <constraint firstAttribute="trailing" secondItem="Dd1-9t-8AE" secondAttribute="trailing" id="I0b-Ye-AB4"/>
+                        <constraint firstItem="cbg-kd-i8a" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" id="Yml-6r-yr7"/>
+                        <constraint firstItem="31x-dv-CQJ" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" id="ZxC-W6-J3s"/>
+                        <constraint firstAttribute="height" constant="72" id="cej-VW-cDu"/>
+                        <constraint firstAttribute="bottom" secondItem="31x-dv-CQJ" secondAttribute="bottom" id="h9z-fM-Yl7"/>
+                        <constraint firstItem="31x-dv-CQJ" firstAttribute="top" secondItem="gXy-qN-3X1" secondAttribute="top" id="sKq-xD-pL7"/>
+                        <constraint firstAttribute="bottom" secondItem="Dd1-9t-8AE" secondAttribute="bottom" id="vxU-Mh-PdU"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="1Re-Cf-KbN" firstAttribute="leading" secondItem="mUa-cS-ru4" secondAttribute="leading" constant="9" id="6j7-OT-cjk"/>
                 <constraint firstAttribute="trailing" secondItem="BoD-Az-3DM" secondAttribute="trailing" id="7xc-Ha-asg"/>
+                <constraint firstItem="gXy-qN-3X1" firstAttribute="top" secondItem="mUa-cS-ru4" secondAttribute="top" id="LpH-BR-0Ub"/>
                 <constraint firstItem="l9u-2b-4LK" firstAttribute="leading" secondItem="mUa-cS-ru4" secondAttribute="leading" constant="9" id="MmF-oh-Y75"/>
+                <constraint firstItem="gXy-qN-3X1" firstAttribute="leading" secondItem="mUa-cS-ru4" secondAttribute="leading" id="Neb-TA-LeI"/>
                 <constraint firstAttribute="trailing" secondItem="l9u-2b-4LK" secondAttribute="trailing" constant="9" id="O9u-TA-A0e"/>
                 <constraint firstAttribute="bottom" secondItem="l9u-2b-4LK" secondAttribute="bottom" id="Re7-WW-UmS"/>
-                <constraint firstItem="l9u-2b-4LK" firstAttribute="top" secondItem="mUa-cS-ru4" secondAttribute="top" id="dCQ-DM-Wdj"/>
+                <constraint firstItem="l9u-2b-4LK" firstAttribute="top" secondItem="mUa-cS-ru4" secondAttribute="top" constant="72" id="dCQ-DM-Wdj"/>
                 <constraint firstAttribute="trailing" secondItem="1Re-Cf-KbN" secondAttribute="trailing" constant="9" id="oJ2-PG-D4a"/>
                 <constraint firstAttribute="bottom" secondItem="BoD-Az-3DM" secondAttribute="bottom" id="rHs-6q-NX4"/>
+                <constraint firstAttribute="trailing" secondItem="gXy-qN-3X1" secondAttribute="trailing" id="sa7-UB-h3n"/>
                 <constraint firstAttribute="bottom" secondItem="1Re-Cf-KbN" secondAttribute="bottom" id="tjk-2Q-wsR"/>
                 <constraint firstItem="BoD-Az-3DM" firstAttribute="leading" secondItem="mUa-cS-ru4" secondAttribute="leading" id="ts7-8f-0lH"/>
                 <constraint firstItem="1Re-Cf-KbN" firstAttribute="top" secondItem="mUa-cS-ru4" secondAttribute="top" id="zaO-Be-4LK"/>

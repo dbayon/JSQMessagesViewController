@@ -210,4 +210,8 @@
                                                           text:self.text];
 }
 
+- (BOOL)isMine {
+    return YES;
+}
+
 @end

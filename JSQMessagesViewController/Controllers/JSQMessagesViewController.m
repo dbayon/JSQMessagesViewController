@@ -125,6 +125,8 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self setTimeLineColor:[JSQMessagesThemeColor jsq_getThemeColor]];
+    [self.chatTitle setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
+    [self.backLbl setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
     
     self.jsq_isObserving = NO;
 
@@ -157,6 +159,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
                                                                           contextView:self.view
                                                                  panGestureRecognizer:self.collectionView.panGestureRecognizer
                                                                              delegate:self];
+    [[self navigationController] setNavigationBarHidden:YES animated:NO];
 }
 
 - (void)dealloc
@@ -219,7 +222,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     [super viewDidLoad];
 
     [[[self class] nib] instantiateWithOwner:self options:nil];
-
+    
     [self jsq_configureMessagesViewController];
     [self jsq_registerForNotifications:YES];
 }
@@ -1041,6 +1044,12 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     }
     [_timeView setBackgroundColor:color];
 }
+
+- (void)setNavigationBarFont:(NSString*)fontName; {
+    [self.chatTitle setFont:[UIFont fontWithName:fontName size:self.chatTitle.font.pointSize]];
+    [self.backLbl setFont:[UIFont fontWithName:fontName size:self.backLbl.font.pointSize]];
+}
+
 
 
 

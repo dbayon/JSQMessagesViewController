@@ -473,7 +473,7 @@
      *  Override point for customizing cells
      */
     JSQMessagesCollectionViewCell *cell = (JSQMessagesCollectionViewCell *)[super collectionView:collectionView cellForItemAtIndexPath:indexPath];
-    [cell setMessageBubbleTopBackground:[JSQMessagesThemeColor jsq_getThemeColor]];
+    //[cell setMessageBubbleTopBackground:[JSQMessagesThemeColor jsq_getThemeColor]];
     /**
      *  Configure almost *anything* on the cell
      *
