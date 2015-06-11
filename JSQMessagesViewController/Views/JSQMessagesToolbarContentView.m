@@ -21,6 +21,7 @@
 #import "UIView+JSQMessages.h"
 #import "UIColor+JSQMessages.h"
 #import "JSQMessagesThemeColor.h"
+#import "UIImage+JSQMessages.h"
 
 const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
 
@@ -65,8 +66,8 @@ const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
     
     self.backgroundColor = [UIColor clearColor];
     
-    [self.leftSpike setImage:[[UIImage imageNamed:@"text_input_left_spike.png"] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
-    [self.rightSpike setImage:[[UIImage imageNamed:@"text_input_right_spike.png"] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
+    [self.leftSpike setImage:[[UIImage jsq_leftSpikeImageFromBundleWithName] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
+    [self.rightSpike setImage:[[UIImage jsq_rightSpikeImageFromBundleWithName] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
 }
 
 

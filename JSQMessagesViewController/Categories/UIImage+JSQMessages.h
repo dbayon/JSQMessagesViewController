@@ -20,6 +20,10 @@
 
 @interface UIImage (JSQMessages)
 
++ (UIImage *)jsq_leftSpikeImageFromBundleWithName;
+
++ (UIImage *)jsq_rightSpikeImageFromBundleWithName;
+
 /**
  *  Creates and returns a new image object that is masked with the specified mask color.
  *

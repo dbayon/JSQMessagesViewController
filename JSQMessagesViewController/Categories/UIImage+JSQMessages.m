@@ -48,6 +48,20 @@
     return newImage;
 }
 
++ (UIImage *)jsq_leftSpikeImageFromBundleWithName
+{
+    NSBundle *bundle = [NSBundle jsq_messagesAssetBundle];
+    NSString *path = [bundle pathForResource:@"text_input_left_spike" ofType:@"png" inDirectory:@"Images"];
+    return [UIImage imageWithContentsOfFile:path];
+}
+
++ (UIImage *)jsq_rightSpikeImageFromBundleWithName
+{
+    NSBundle *bundle = [NSBundle jsq_messagesAssetBundle];
+    NSString *path = [bundle pathForResource:@"text_input_right_spike" ofType:@"png" inDirectory:@"Images"];
+    return [UIImage imageWithContentsOfFile:path];
+}
+
 + (UIImage *)jsq_bubbleImageFromBundleWithName:(NSString *)name
 {
     NSBundle *bundle = [NSBundle jsq_messagesAssetBundle];
