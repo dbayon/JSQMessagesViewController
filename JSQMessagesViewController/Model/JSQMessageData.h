@@ -37,6 +37,8 @@
 
 @required
 
+- (BOOL)isMine;
+
 /**
  *  @return A string identifier that uniquely identifies the user who sent the message.
  *

@@ -493,7 +493,7 @@ const CGFloat kJSQMessagesCollectionViewAvatarSizeDefault = 30.0f;
     finalHeight += attributes.cellTopLabelHeight;
     finalHeight += attributes.messageBubbleTopLabelHeight;
     finalHeight += attributes.cellBottomLabelHeight;
-    if(![[messageItem senderDisplayName] isEqualToString:@""]) {
+    if(![messageItem isMine]) {
         finalHeight += 10;
     }
     
