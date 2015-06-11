@@ -35,6 +35,11 @@
 @property (strong, nonatomic) UIColor *placeHolderTextColor;
 
 /**
+ *  The color of the place holder text. The default value is `[UIColor lightGrayColor]`.
+ */
+@property (strong, nonatomic) UIColor *backgroundTextViewColor;
+
+/**
  *  Determines whether or not the text view contains text after trimming white space 
  *  from the front and back of its string.
  *

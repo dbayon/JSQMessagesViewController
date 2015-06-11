@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA50CE31B287D5A005FFBEA /* text_input_left_spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */; };
+		0EA50CE41B287D5A005FFBEA /* text_input_left_spike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */; };
+		0EA50CE51B287D5A005FFBEA /* text_input_right_spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */; };
+		0EA50CE61B287D5A005FFBEA /* text_input_right_spike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE21B287D5A005FFBEA /* text_input_right_spike@2x.png */; };
+		0EA50CEC1B297488005FFBEA /* JSQMessagesThemeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA50CEB1B297488005FFBEA /* JSQMessagesThemeColor.m */; };
 		1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */; };
 		1480C6FF1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */; };
 		1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */; };
@@ -126,6 +131,12 @@
 
 /* Begin PBXFileReference section */
 		0844AD596023C7658D39E241 /* Pods-JSQMessagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQMessagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSQMessagesTests/Pods-JSQMessagesTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_input_left_spike.png; sourceTree = "<group>"; };
+		0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_left_spike@2x.png"; sourceTree = "<group>"; };
+		0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_input_right_spike.png; sourceTree = "<group>"; };
+		0EA50CE21B287D5A005FFBEA /* text_input_right_spike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_right_spike@2x.png"; sourceTree = "<group>"; };
+		0EA50CEA1B297488005FFBEA /* JSQMessagesThemeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesThemeColor.h; sourceTree = "<group>"; };
+		0EA50CEB1B297488005FFBEA /* JSQMessagesThemeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesThemeColor.m; sourceTree = "<group>"; };
 		1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_min_tailless_custom.png; sourceTree = "<group>"; };
 		1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@2x.png"; sourceTree = "<group>"; };
 		1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@3x.png"; sourceTree = "<group>"; };
@@ -427,6 +438,10 @@
 		88A25F3F19D8E01A00924534 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */,
+				0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */,
+				0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */,
+				0EA50CE21B287D5A005FFBEA /* text_input_right_spike@2x.png */,
 				1480C7011ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png */,
 				1480C7021ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png */,
 				1480C7031ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png */,
@@ -484,6 +499,8 @@
 				88A25F6B19D8E01A00924534 /* JSQMessagesTimestampFormatter.m */,
 				88A25F6C19D8E01A00924534 /* JSQMessagesToolbarButtonFactory.h */,
 				88A25F6D19D8E01A00924534 /* JSQMessagesToolbarButtonFactory.m */,
+				0EA50CEA1B297488005FFBEA /* JSQMessagesThemeColor.h */,
+				0EA50CEB1B297488005FFBEA /* JSQMessagesThemeColor.m */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -688,6 +705,7 @@
 				TargetAttributes = {
 					88A25F0119D8DEC400924534 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 6NNZCM97WS;
 					};
 					88A25F1A19D8DEC400924534 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -735,10 +753,12 @@
 				886C33FF19F45E30006B4997 /* JSQMessagesViewController.podspec in Resources */,
 				1480C6FF1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png in Resources */,
 				8861666D19F492B70025B958 /* JSQMessagesAssets.bundle in Resources */,
+				0EA50CE51B287D5A005FFBEA /* text_input_right_spike.png in Resources */,
 				88A25FCF19D8E01A00924534 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
 				1480C7051ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png in Resources */,
 				88A25FCD19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
 				88A25FD619D8E01A00924534 /* JSQMessagesToolbarContentView.xib in Resources */,
+				0EA50CE31B287D5A005FFBEA /* text_input_left_spike.png in Resources */,
 				88A25F3A19D8DF2500924534 /* Images.xcassets in Resources */,
 				1480C7061ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@3x.png in Resources */,
 				1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */,
@@ -746,6 +766,8 @@
 				88A25FBC19D8E01A00924534 /* JSQMessagesViewController.xib in Resources */,
 				88A25FD819D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */,
+				0EA50CE41B287D5A005FFBEA /* text_input_left_spike@2x.png in Resources */,
+				0EA50CE61B287D5A005FFBEA /* text_input_right_spike@2x.png in Resources */,
 				88A25F3919D8DF2500924534 /* Main.storyboard in Resources */,
 				88A25FD419D8E01A00924534 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 			);
@@ -859,6 +881,7 @@
 				88A25FB619D8E01A00924534 /* NSString+JSQMessages.m in Sources */,
 				88A901B619F618B100F99777 /* JSQMediaItem.m in Sources */,
 				88A25FCC19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.m in Sources */,
+				0EA50CEC1B297488005FFBEA /* JSQMessagesThemeColor.m in Sources */,
 				88A25FBE19D8E01A00924534 /* JSQMessagesBubbleImageFactory.m in Sources */,
 				88A25FDF19D8E0C400924534 /* DemoMessagesViewController.m in Sources */,
 				88A25FB719D8E01A00924534 /* UIColor+JSQMessages.m in Sources */,
@@ -950,7 +973,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: david bayon (N4CSP3XMK7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: david bayon (N4CSP3XMK7)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -970,6 +994,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "56502489-ea04-4d1e-bdc1-0fa234ac88fa";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1005,6 +1030,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "56502489-ea04-4d1e-bdc1-0fa234ac88fa";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1018,14 +1044,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: david bayon (N4CSP3XMK7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: david bayon (N4CSP3XMK7)";
 				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56502489-ea04-4d1e-bdc1-0fa234ac88fa";
 			};
 			name = Debug;
 		};
@@ -1036,14 +1062,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: david bayon (N4CSP3XMK7)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/JSQMessagesDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "56502489-ea04-4d1e-bdc1-0fa234ac88fa";
 			};
 			name = Release;
 		};

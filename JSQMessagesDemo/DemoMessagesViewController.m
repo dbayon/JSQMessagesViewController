@@ -17,6 +17,7 @@
 //
 
 #import "DemoMessagesViewController.h"
+#import "JSQMessagesThemeColor.h"
 
 
 @implementation DemoMessagesViewController
@@ -35,10 +36,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+
     self.title = @"JSQMessages";
-    [self setTimeLineColor:[UIColor greenColor]];
-    
     [self.collectionView.collectionViewLayout setExtraMarginForHourLabel:20];
     
     /**
@@ -52,7 +51,6 @@
      *  Load up our fake data for the demo
      */
     self.demoData = [[DemoModelData alloc] init];
-    
     
     /**
      *  You can set custom avatar sizes
@@ -78,6 +76,9 @@
      *  self.inputToolbar.contentView.leftBarButtonItem = custom button or nil to remove
      *  self.inputToolbar.contentView.rightBarButtonItem = custom button or nil to remove
      */
+    
+    self.inputToolbar.contentView.leftBarButtonItem = nil;
+    self.showLoadEarlierMessagesHeader = NO;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -451,7 +452,7 @@
     /**
      *  Don't specify attributes to use the defaults.
      */
-    return [[NSAttributedString alloc] initWithString:message.senderDisplayName];
+    return [[NSAttributedString alloc] initWithString:[message.senderDisplayName uppercaseString]];
 }
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForCellBottomLabelAtIndexPath:(NSIndexPath *)indexPath
@@ -472,7 +473,7 @@
      *  Override point for customizing cells
      */
     JSQMessagesCollectionViewCell *cell = (JSQMessagesCollectionViewCell *)[super collectionView:collectionView cellForItemAtIndexPath:indexPath];
-    
+    [cell setMessageBubbleTopBackground:[JSQMessagesThemeColor jsq_getThemeColor]];
     /**
      *  Configure almost *anything* on the cell
      *
@@ -492,10 +493,10 @@
     if (!msg.isMediaMessage) {
         
         if ([msg.senderId isEqualToString:self.senderId]) {
-            cell.textView.textColor = [UIColor blackColor];
+            cell.textView.textColor = [UIColor whiteColor];
         }
         else {
-            cell.textView.textColor = [UIColor whiteColor];
+            cell.textView.textColor = [JSQMessagesThemeColor jsq_getThemeColor];
         }
         
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : cell.textView.textColor,

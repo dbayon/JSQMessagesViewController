@@ -266,4 +266,6 @@
  * set the timeline bg color
  */
 -(void)setTimeLineColor:(UIColor*)color;
+
+
 @end

@@ -17,8 +17,10 @@
 //
 
 #import "JSQMessagesToolbarContentView.h"
-
+#import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
+#import "UIColor+JSQMessages.h"
+#import "JSQMessagesThemeColor.h"
 
 const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
 
@@ -62,7 +64,11 @@ const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
     self.rightHorizontalSpacingConstraint.constant = kJSQMessagesToolbarContentViewHorizontalSpacingDefault;
     
     self.backgroundColor = [UIColor clearColor];
+    
+    [self.leftSpike setImage:[[UIImage imageNamed:@"text_input_left_spike.png"] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
+    [self.rightSpike setImage:[[UIImage imageNamed:@"text_input_right_spike.png"] jsq_imageMaskedWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]]];
 }
+
 
 - (void)dealloc
 {
@@ -163,6 +169,7 @@ const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingDefault = 8.0f;
 {
     return self.rightBarButtonContainerViewWidthConstraint.constant;
 }
+
 
 #pragma mark - UIView overrides
 

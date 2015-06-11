@@ -17,6 +17,7 @@
 //
 
 #import "TableViewController.h"
+#import "JSQMessagesThemeColor.h"
 
 @implementation TableViewController
 
@@ -26,6 +27,7 @@
 {
     [super viewDidLoad];
     self.title = @"JSQMessagesViewController";
+    [JSQMessagesThemeColor jsq_saveThemeColor:[UIColor purpleColor]];
 }
 
 - (void)viewWillAppear:(BOOL)animated

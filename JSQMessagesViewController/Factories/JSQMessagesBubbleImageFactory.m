@@ -65,7 +65,7 @@
 {
 //    return [self initWithBubbleImage:[UIImage jsq_bubbleCustomLargeImage] capInsets:UIEdgeInsetsMake(10.0f, 10.0f, 10.0f, 30.0f)];
     //TODO: original
-    return [self initWithBubbleImage:[UIImage jsq_bubbleRegularImage] capInsets:UIEdgeInsetsZero];
+    return [self initWithBubbleImage:[UIImage jsq_bubbleCompactTaillessImage] capInsets:UIEdgeInsetsZero];
 }
 
 - (void)dealloc

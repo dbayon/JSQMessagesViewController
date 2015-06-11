@@ -53,4 +53,8 @@
  */
 - (UIColor *)jsq_colorByDarkeningColorWithValue:(CGFloat)value;
 
++ (UIColor *)jsq_colorWithHexString:(NSString *)hexString;
+
++ (NSString *)jsq_hexValuesFromUIColor:(UIColor *)color;
+
 @end

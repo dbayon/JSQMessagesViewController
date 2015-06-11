@@ -34,6 +34,9 @@ FOUNDATION_EXPORT const CGFloat kJSQMessagesToolbarContentViewHorizontalSpacingD
  */
 @interface JSQMessagesToolbarContentView : UIView
 
+@property (weak, nonatomic) IBOutlet UIImageView *leftSpike;
+@property (weak, nonatomic) IBOutlet UIImageView *rightSpike;
+
 /**
  *  Returns the text view in which the user composes a message.
  */

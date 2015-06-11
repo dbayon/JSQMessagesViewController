@@ -19,6 +19,7 @@
 #import "DemoSettingsViewController.h"
 
 #import "NSUserDefaults+DemoSettings.h"
+#import "JSQMessagesThemeColor.h"
 
 
 /**

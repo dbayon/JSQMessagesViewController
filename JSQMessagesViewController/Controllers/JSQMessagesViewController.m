@@ -42,6 +42,7 @@
 #import "UIColor+JSQMessages.h"
 #import "UIDevice+JSQMessages.h"
 #import "NSBundle+JSQMessages.h"
+#import "JSQMessagesThemeColor.h"
 
 
 static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObservingContext;
@@ -123,6 +124,8 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 {
     self.view.backgroundColor = [UIColor whiteColor];
 
+    [self setTimeLineColor:[JSQMessagesThemeColor jsq_getThemeColor]];
+    
     self.jsq_isObserving = NO;
 
     self.toolbarHeightConstraint.constant = self.inputToolbar.preferredDefaultHeight;
@@ -527,7 +530,8 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
         cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, bubbleTopLabelInset);
     }
     else {
-        cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, bubbleTopLabelInset, 0.0f, 0.0f);
+        //cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, bubbleTopLabelInset, 0.0f, 0.0f);
+        cell.messageBubbleTopLabel.textInsets = UIEdgeInsetsMake(0.0f, 0.0f, 0.0f, 10.0f);
     }
 
     cell.textView.dataDetectorTypes = UIDataDetectorTypeAll;
@@ -1037,4 +1041,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     }
     [_timeView setBackgroundColor:color];
 }
+
+
+
 @end

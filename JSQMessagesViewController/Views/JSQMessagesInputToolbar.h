@@ -60,6 +60,8 @@
  */
 @interface JSQMessagesInputToolbar : UIToolbar
 
+@property (nonatomic, strong) UIColor *themeColor;
+
 /**
  *  The object that acts as the delegate of the toolbar.
  */
@@ -102,5 +104,6 @@
  *  @return An initialized `JSQMessagesToolbarContentView` if successful, otherwise `nil`.
  */
 - (JSQMessagesToolbarContentView *)loadToolbarContentView;
+
 
 @end

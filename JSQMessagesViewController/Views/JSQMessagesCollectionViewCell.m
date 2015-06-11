@@ -24,6 +24,7 @@
 
 #import "UIView+JSQMessages.h"
 #import "UIDevice+JSQMessages.h"
+#import "UIColor+JSQMessages.h"
 
 
 @interface JSQMessagesCollectionViewCell ()
@@ -106,8 +107,8 @@
     self.cellTopLabel.font = [UIFont boldSystemFontOfSize:12.0f];
     self.cellTopLabel.textColor = [UIColor lightGrayColor];
 
-    //self.messageBubbleTopLabel.font = [UIFont systemFontOfSize:12.0f];
-    //self.messageBubbleTopLabel.textColor = [UIColor lightGrayColor];
+    self.messageBubbleTopLabel.font = [UIFont systemFontOfSize:12.0f];
+    self.messageBubbleTopLabel.textColor = [UIColor whiteColor];
 
     self.cellBottomLabel.font = [UIFont systemFontOfSize:11.0f];
     self.cellBottomLabel.textColor = [UIColor lightGrayColor];
@@ -222,6 +223,10 @@
 }
 
 #pragma mark - Setters
+
+- (void)setMessageBubbleTopBackground:(UIColor*)color {
+    self.messageBubbleTopLabel.backgroundColor = [color jsq_colorByDarkeningColorWithValue:0.2];
+}
 
 - (void)setBackgroundColor:(UIColor *)backgroundColor
 {

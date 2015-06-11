@@ -21,7 +21,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 #import "NSString+JSQMessages.h"
-
+#import "JSQMessagesThemeColor.h"
 
 @interface JSQMessagesComposerTextView ()
 
@@ -35,8 +35,6 @@
 
 @end
 
-
-
 @implementation JSQMessagesComposerTextView
 
 #pragma mark - Initialization
@@ -46,10 +44,10 @@
     [self setTranslatesAutoresizingMaskIntoConstraints:NO];
     
     CGFloat cornerRadius = 6.0f;
-    
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundTextViewColor = [JSQMessagesThemeColor jsq_getThemeColor];
+    self.backgroundColor = self.backgroundTextViewColor;
     self.layer.borderWidth = 0.5f;
-    self.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    self.layer.borderColor = [UIColor clearColor].CGColor;
     self.layer.cornerRadius = cornerRadius;
     
     self.scrollIndicatorInsets = UIEdgeInsetsMake(cornerRadius, 0.0f, cornerRadius, 0.0f);
@@ -62,7 +60,7 @@
     self.userInteractionEnabled = YES;
     
     self.font = [UIFont systemFontOfSize:16.0f];
-    self.textColor = [UIColor blackColor];
+    self.textColor = [UIColor whiteColor];
     self.textAlignment = NSTextAlignmentNatural;
     
     self.contentMode = UIViewContentModeRedraw;
@@ -74,7 +72,7 @@
     self.text = nil;
     
     _placeHolder = nil;
-    _placeHolderTextColor = [UIColor lightGrayColor];
+    _placeHolderTextColor = [UIColor whiteColor];
     
     [self jsq_addTextViewNotificationObservers];
 }
