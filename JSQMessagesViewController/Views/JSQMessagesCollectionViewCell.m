@@ -25,7 +25,7 @@
 #import "UIView+JSQMessages.h"
 #import "UIDevice+JSQMessages.h"
 #import "UIColor+JSQMessages.h"
-
+#import "JSQMessagesThemeColor.h"
 
 @interface JSQMessagesCollectionViewCell ()
 
@@ -224,16 +224,12 @@
 
 #pragma mark - Setters
 
-- (void)setMessageBubbleTopBackground:(UIColor*)color {
-    self.messageBubbleTopLabel.backgroundColor = [color jsq_colorByDarkeningColorWithValue:0.2];
-}
-
 - (void)setBackgroundColor:(UIColor *)backgroundColor
 {
     [super setBackgroundColor:backgroundColor];
 
     self.cellTopLabel.backgroundColor = backgroundColor;
-    self.messageBubbleTopLabel.backgroundColor = backgroundColor;
+    self.messageBubbleTopLabel.backgroundColor = [[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2];;
     self.cellBottomLabel.backgroundColor = backgroundColor;
 
     self.messageBubbleImageView.backgroundColor = backgroundColor;
