@@ -32,31 +32,14 @@
                     </constraints>
                 </view>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dm4-NT-mvr" customClass="JSQMessagesComposerTextView">
-                    <rect key="frame" x="14" y="7" width="234" height="30"/>
+                    <rect key="frame" x="7" y="7" width="241" height="30"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
-                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text_input_left_spike.png" translatesAutoresizingMaskIntoConstraints="NO" id="i9I-cH-Ssf">
-                    <rect key="frame" x="0.0" y="44" width="9" height="9"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="9" id="FhM-IS-qn1"/>
-                        <constraint firstAttribute="height" constant="9" id="REl-to-9af"/>
-                    </constraints>
-                </imageView>
-                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text_input_right_spike.png" translatesAutoresizingMaskIntoConstraints="NO" id="4rW-1T-lxK">
-                    <rect key="frame" x="311" y="44" width="9" height="9"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="9" id="9sl-Q5-9SE"/>
-                        <constraint firstAttribute="width" constant="9" id="x8T-1C-7XY"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="i9I-cH-Ssf" firstAttribute="top" secondItem="nvd-7b-6WS" secondAttribute="bottom" id="2Wd-b4-AAe"/>
-                <constraint firstAttribute="trailing" secondItem="4rW-1T-lxK" secondAttribute="trailing" id="2su-Ye-628"/>
-                <constraint firstItem="i9I-cH-Ssf" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="669-UG-kkx"/>
                 <constraint firstItem="Myo-1S-Vg1" firstAttribute="leading" secondItem="dm4-NT-mvr" secondAttribute="trailing" constant="8" id="7Ld-5r-Hp3"/>
                 <constraint firstItem="dm4-NT-mvr" firstAttribute="top" secondItem="1" secondAttribute="top" constant="7" id="9Tz-Wq-xIf"/>
                 <constraint firstAttribute="bottom" secondItem="dm4-NT-mvr" secondAttribute="bottom" constant="7" id="CCb-V7-yek"/>
@@ -65,9 +48,8 @@
                 <constraint firstItem="nvd-7b-6WS" firstAttribute="top" secondItem="1" secondAttribute="top" id="EnJ-ua-peK"/>
                 <constraint firstItem="LEq-G7-jGt" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="8" id="LAU-fo-GJJ"/>
                 <constraint firstAttribute="trailing" secondItem="nvd-7b-6WS" secondAttribute="trailing" id="VpS-1G-y6o"/>
-                <constraint firstItem="4rW-1T-lxK" firstAttribute="top" secondItem="nvd-7b-6WS" secondAttribute="bottom" id="WI0-89-Gkk"/>
                 <constraint firstAttribute="trailing" secondItem="Myo-1S-Vg1" secondAttribute="trailing" constant="14" id="ds6-61-GNv"/>
-                <constraint firstItem="dm4-NT-mvr" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="14" id="j2f-CU-Vf7"/>
+                <constraint firstItem="dm4-NT-mvr" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="7" id="j2f-CU-Vf7"/>
                 <constraint firstAttribute="bottom" secondItem="LEq-G7-jGt" secondAttribute="bottom" constant="6" id="oG2-YD-ZZI"/>
                 <constraint firstAttribute="bottom" secondItem="nvd-7b-6WS" secondAttribute="bottom" id="qJa-Li-1Mg"/>
             </constraints>
@@ -77,20 +59,14 @@
                 <outlet property="leftBarButtonContainerView" destination="LEq-G7-jGt" id="F0V-4N-1Mo"/>
                 <outlet property="leftBarButtonContainerViewWidthConstraint" destination="eMy-Af-wwH" id="FI9-F2-2bN"/>
                 <outlet property="leftHorizontalSpacingConstraint" destination="LAU-fo-GJJ" id="X2c-BI-0Q4"/>
-                <outlet property="leftSpike" destination="i9I-cH-Ssf" id="fyr-NS-dHZ"/>
                 <outlet property="rightBarButtonContainerView" destination="Myo-1S-Vg1" id="0SR-cw-EkD"/>
                 <outlet property="rightBarButtonContainerViewWidthConstraint" destination="yde-S9-dHe" id="WGu-df-M3L"/>
                 <outlet property="rightHorizontalSpacingConstraint" destination="ds6-61-GNv" id="ZQh-8M-QFs"/>
-                <outlet property="rightSpike" destination="4rW-1T-lxK" id="N37-aj-DNC"/>
                 <outlet property="textView" destination="dm4-NT-mvr" id="PFw-HO-oT8"/>
             </connections>
             <point key="canvasLocation" x="268" y="548"/>
         </view>
     </objects>
-    <resources>
-        <image name="text_input_left_spike.png" width="9" height="9"/>
-        <image name="text_input_right_spike.png" width="9" height="9"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
