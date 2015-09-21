@@ -12,7 +12,7 @@
 		0EA50CE51B287D5A005FFBEA /* text_input_right_spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */; };
 		0EA50CE61B287D5A005FFBEA /* text_input_right_spike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE21B287D5A005FFBEA /* text_input_right_spike@2x.png */; };
 		0EA50CEC1B297488005FFBEA /* JSQMessagesThemeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA50CEB1B297488005FFBEA /* JSQMessagesThemeColor.m */; };
-		0EB152131BAFF74900FE94BE /* JSQMessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB152121BAFF74900FE94BE /* JSQMessagesViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		0EFCEADD1BB058E0000E0C85 /* JSQMessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFCEADC1BB058E0000E0C85 /* JSQMessagesViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */; };
 		1480C6FF1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */; };
 		1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */; };
@@ -138,7 +138,7 @@
 		0EA50CE21B287D5A005FFBEA /* text_input_right_spike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_right_spike@2x.png"; sourceTree = "<group>"; };
 		0EA50CEA1B297488005FFBEA /* JSQMessagesThemeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesThemeColor.h; sourceTree = "<group>"; };
 		0EA50CEB1B297488005FFBEA /* JSQMessagesThemeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesThemeColor.m; sourceTree = "<group>"; };
-		0EB152121BAFF74900FE94BE /* JSQMessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesViewController.xib; sourceTree = "<group>"; };
+		0EFCEADC1BB058E0000E0C85 /* JSQMessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesViewController.xib; sourceTree = "<group>"; };
 		1480C6FB1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble_min_tailless_custom.png; sourceTree = "<group>"; };
 		1480C6FC1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@2x.png"; sourceTree = "<group>"; };
 		1480C6FD1ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubble_min_tailless_custom@3x.png"; sourceTree = "<group>"; };
@@ -479,7 +479,7 @@
 		88A25F5F19D8E01A00924534 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0EB152121BAFF74900FE94BE /* JSQMessagesViewController.xib */,
+				0EFCEADC1BB058E0000E0C85 /* JSQMessagesViewController.xib */,
 				88A25F6019D8E01A00924534 /* JSQMessagesKeyboardController.h */,
 				88A25F6119D8E01A00924534 /* JSQMessagesKeyboardController.m */,
 				88A25F6219D8E01A00924534 /* JSQMessagesViewController.h */,
@@ -758,6 +758,7 @@
 				8861666D19F492B70025B958 /* JSQMessagesAssets.bundle in Resources */,
 				0EA50CE51B287D5A005FFBEA /* text_input_right_spike.png in Resources */,
 				88A25FCF19D8E01A00924534 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
+				0EFCEADD1BB058E0000E0C85 /* JSQMessagesViewController.xib in Resources */,
 				1480C7051ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large@2x.png in Resources */,
 				88A25FCD19D8E01A00924534 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
 				88A25FD619D8E01A00924534 /* JSQMessagesToolbarContentView.xib in Resources */,
@@ -773,7 +774,6 @@
 				0EA50CE61B287D5A005FFBEA /* text_input_right_spike@2x.png in Resources */,
 				88A25F3919D8DF2500924534 /* Main.storyboard in Resources */,
 				88A25FD419D8E01A00924534 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
-				0EB152131BAFF74900FE94BE /* JSQMessagesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
