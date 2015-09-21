@@ -65,9 +65,10 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31x-dv-CQJ">
-                            <rect key="frame" x="4" y="15" width="39" height="49"/>
+                            <rect key="frame" x="3" y="17" width="39" height="49"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="39" id="epr-Sl-Bd9"/>
+                                <constraint firstAttribute="height" constant="49" id="pzf-CW-EBf"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -92,11 +93,10 @@
                         <constraint firstItem="Dd1-9t-8AE" firstAttribute="centerX" secondItem="gXy-qN-3X1" secondAttribute="centerX" id="Izg-HQ-uv9"/>
                         <constraint firstItem="7KF-FI-mub" firstAttribute="top" secondItem="Dd1-9t-8AE" secondAttribute="top" id="Tqz-aj-VnM"/>
                         <constraint firstItem="cbg-kd-i8a" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" id="Yml-6r-yr7"/>
-                        <constraint firstItem="31x-dv-CQJ" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" constant="4" id="ZxC-W6-J3s"/>
+                        <constraint firstItem="31x-dv-CQJ" firstAttribute="leading" secondItem="gXy-qN-3X1" secondAttribute="leading" constant="3" id="ZxC-W6-J3s"/>
                         <constraint firstAttribute="trailing" secondItem="7KF-FI-mub" secondAttribute="trailing" constant="9" id="cda-XX-c2k"/>
                         <constraint firstAttribute="height" constant="64" id="cej-VW-cDu"/>
-                        <constraint firstAttribute="bottom" secondItem="31x-dv-CQJ" secondAttribute="bottom" id="h9z-fM-Yl7"/>
-                        <constraint firstItem="31x-dv-CQJ" firstAttribute="top" secondItem="gXy-qN-3X1" secondAttribute="top" constant="15" id="sKq-xD-pL7"/>
+                        <constraint firstItem="31x-dv-CQJ" firstAttribute="top" secondItem="gXy-qN-3X1" secondAttribute="top" constant="17" id="sKq-xD-pL7"/>
                         <constraint firstAttribute="bottom" secondItem="Dd1-9t-8AE" secondAttribute="bottom" constant="-8" id="vxU-Mh-PdU"/>
                     </constraints>
                 </view>
