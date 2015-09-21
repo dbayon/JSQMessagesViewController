@@ -127,6 +127,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     [self setTimeLineColor:[JSQMessagesThemeColor jsq_getThemeColor]];
     [self.chatTitle setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
     [self.backLbl setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
+    [self.infoLabel setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
     
     self.jsq_isObserving = NO;
 

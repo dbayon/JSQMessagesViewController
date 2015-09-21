@@ -271,5 +271,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *chatTitle;
 @property (weak, nonatomic) IBOutlet UIButton *chatBackButton;
 @property (weak, nonatomic) IBOutlet UILabel *backLbl;
+@property (weak, nonatomic) IBOutlet UILabel *infoLabel;
 
 @end
