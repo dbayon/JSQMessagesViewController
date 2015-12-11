@@ -98,7 +98,7 @@
     self.backgroundColor = [UIColor whiteColor];
 
     self.cellTopLabelHeightConstraint.constant = 20.0f;
-    self.messageBubbleTopLabelHeightConstraint.constant = 20.0f;
+    self.messageBubbleTopLabelHeightConstraint.constant = 0.0f;
     self.cellBottomLabelHeightConstraint.constant = 0.0f;
 
     self.avatarViewSize = CGSizeZero;
