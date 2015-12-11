@@ -60,7 +60,7 @@
     self.userInteractionEnabled = YES;
     
     self.font = [UIFont systemFontOfSize:16.0f];
-    self.textColor = [UIColor whiteColor];
+    self.textColor = [JSQMessagesThemeColor jsq_getSendTextViewTextColor];
     self.textAlignment = NSTextAlignmentNatural;
     
     self.contentMode = UIViewContentModeRedraw;
@@ -72,7 +72,7 @@
     self.text = nil;
     
     _placeHolder = nil;
-    _placeHolderTextColor = [UIColor whiteColor];
+    _placeHolderTextColor = [JSQMessagesThemeColor jsq_getSendTextViewPlaceholderTextColor];
     
     [self jsq_addTextViewNotificationObservers];
 }

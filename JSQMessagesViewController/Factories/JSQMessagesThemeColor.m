@@ -50,4 +50,12 @@
     return [UIColor whiteColor];
 }
 
++ (UIColor*)jsq_getSendTextViewTextColor {
+    return [UIColor colorWithRed:93.0f/255.0f green:93.0f/255.0f blue:93.0f/255.0f alpha:1];
+}
+
++ (UIColor*)jsq_getSendTextViewPlaceholderTextColor {
+    return [UIColor colorWithRed:176.0f/255.0f green:176.0f/255.0f blue:176.0f/255.0f alpha:1];
+}
+
 @end

@@ -20,4 +20,7 @@
 + (UIColor*)jsq_getIncomingBubbleTextColor;
 + (UIColor*)jsq_getOutcomingBubbleTextColor;
 
++ (UIColor*)jsq_getSendTextViewTextColor;
++ (UIColor*)jsq_getSendTextViewPlaceholderTextColor;
+
 @end

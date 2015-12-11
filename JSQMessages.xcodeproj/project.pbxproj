@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E8DEF831C1AD5BA003A2FA5 /* Arrow back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF801C1AD5BA003A2FA5 /* Arrow back.png */; };
-		0E8DEF841C1AD5BA003A2FA5 /* Arrow back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF811C1AD5BA003A2FA5 /* Arrow back@2x.png */; };
-		0E8DEF851C1AD5BA003A2FA5 /* Arrow back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF821C1AD5BA003A2FA5 /* Arrow back@3x.png */; };
+		0E8DEF891C1AF6D5003A2FA5 /* Arrow back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF861C1AF6D5003A2FA5 /* Arrow back.png */; };
+		0E8DEF8A1C1AF6D5003A2FA5 /* Arrow back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF871C1AF6D5003A2FA5 /* Arrow back@2x.png */; };
+		0E8DEF8B1C1AF6D5003A2FA5 /* Arrow back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DEF881C1AF6D5003A2FA5 /* Arrow back@3x.png */; };
 		0EA50CE31B287D5A005FFBEA /* text_input_left_spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */; };
 		0EA50CE41B287D5A005FFBEA /* text_input_left_spike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */; };
 		0EA50CE51B287D5A005FFBEA /* text_input_right_spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */; };
@@ -135,9 +135,9 @@
 
 /* Begin PBXFileReference section */
 		0844AD596023C7658D39E241 /* Pods-JSQMessagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSQMessagesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSQMessagesTests/Pods-JSQMessagesTests.release.xcconfig"; sourceTree = "<group>"; };
-		0E8DEF801C1AD5BA003A2FA5 /* Arrow back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow back.png"; sourceTree = "<group>"; };
-		0E8DEF811C1AD5BA003A2FA5 /* Arrow back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow back@2x.png"; sourceTree = "<group>"; };
-		0E8DEF821C1AD5BA003A2FA5 /* Arrow back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow back@3x.png"; sourceTree = "<group>"; };
+		0E8DEF861C1AF6D5003A2FA5 /* Arrow back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow back.png"; path = "JSQMessagesAssets.bundle/Images/Arrow back.png"; sourceTree = "<group>"; };
+		0E8DEF871C1AF6D5003A2FA5 /* Arrow back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow back@2x.png"; path = "JSQMessagesAssets.bundle/Images/Arrow back@2x.png"; sourceTree = "<group>"; };
+		0E8DEF881C1AF6D5003A2FA5 /* Arrow back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Arrow back@3x.png"; path = "JSQMessagesAssets.bundle/Images/Arrow back@3x.png"; sourceTree = "<group>"; };
 		0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_input_left_spike.png; sourceTree = "<group>"; };
 		0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_input_left_spike@2x.png"; sourceTree = "<group>"; };
 		0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_input_right_spike.png; sourceTree = "<group>"; };
@@ -446,9 +446,9 @@
 		88A25F3F19D8E01A00924534 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0E8DEF801C1AD5BA003A2FA5 /* Arrow back.png */,
-				0E8DEF811C1AD5BA003A2FA5 /* Arrow back@2x.png */,
-				0E8DEF821C1AD5BA003A2FA5 /* Arrow back@3x.png */,
+				0E8DEF861C1AF6D5003A2FA5 /* Arrow back.png */,
+				0E8DEF871C1AF6D5003A2FA5 /* Arrow back@2x.png */,
+				0E8DEF881C1AF6D5003A2FA5 /* Arrow back@3x.png */,
 				0EA50CDF1B287D5A005FFBEA /* text_input_left_spike.png */,
 				0EA50CE01B287D5A005FFBEA /* text_input_left_spike@2x.png */,
 				0EA50CE11B287D5A005FFBEA /* text_input_right_spike.png */,
@@ -777,11 +777,11 @@
 				1480C6FE1ACAEA1C005A8AA9 /* bubble_min_tailless_custom.png in Resources */,
 				1480C7041ACAEDF1005A8AA9 /* bubble_min_tailless_custom_large.png in Resources */,
 				88A25FBC19D8E01A00924534 /* JSQMessagesViewController_old.xib in Resources */,
-				0E8DEF831C1AD5BA003A2FA5 /* Arrow back.png in Resources */,
-				0E8DEF841C1AD5BA003A2FA5 /* Arrow back@2x.png in Resources */,
+				0E8DEF891C1AF6D5003A2FA5 /* Arrow back.png in Resources */,
+				0E8DEF8A1C1AF6D5003A2FA5 /* Arrow back@2x.png in Resources */,
 				88A25FD819D8E01A00924534 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				1480C7001ACAEA1C005A8AA9 /* bubble_min_tailless_custom@3x.png in Resources */,
-				0E8DEF851C1AD5BA003A2FA5 /* Arrow back@3x.png in Resources */,
+				0E8DEF8B1C1AF6D5003A2FA5 /* Arrow back@3x.png in Resources */,
 				0EA50CE41B287D5A005FFBEA /* text_input_left_spike@2x.png in Resources */,
 				0EA50CE61B287D5A005FFBEA /* text_input_right_spike@2x.png in Resources */,
 				88A25F3919D8DF2500924534 /* Main.storyboard in Resources */,
