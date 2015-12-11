@@ -228,7 +228,7 @@
 {
     [super setBackgroundColor:backgroundColor];
 
-    self.cellTopLabel.backgroundColor = backgroundColor;
+    self.cellTopLabel.backgroundColor = [UIColor whiteColor];
     //self.messageBubbleTopLabel.backgroundColor = [[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2];
     self.messageBubbleTopLabel.backgroundColor = [UIColor clearColor];
     self.cellBottomLabel.backgroundColor = backgroundColor;
