@@ -130,7 +130,6 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
     //[self.infoLabel setTextColor:[JSQMessagesThemeColor jsq_getThemeColor]];
     
     self.jsq_isObserving = NO;
-
     self.toolbarHeightConstraint.constant = self.inputToolbar.preferredDefaultHeight;
 
     self.collectionView.dataSource = self;
@@ -428,7 +427,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForCellTopLabelAtIndexPath:(NSIndexPath *)indexPath
 {
-    return nil;
+    return [[NSAttributedString alloc] initWithString:@"kjhkhsdf djfh"];
 }
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForMessageBubbleTopLabelAtIndexPath:(NSIndexPath *)indexPath
@@ -631,7 +630,7 @@ static void * kJSQMessagesKeyValueObservingContext = &kJSQMessagesKeyValueObserv
 - (CGFloat)collectionView:(JSQMessagesCollectionView *)collectionView
                    layout:(JSQMessagesCollectionViewFlowLayout *)collectionViewLayout heightForCellTopLabelAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 0.0f;
+    return 20.0f;
 }
 
 - (CGFloat)collectionView:(JSQMessagesCollectionView *)collectionView
