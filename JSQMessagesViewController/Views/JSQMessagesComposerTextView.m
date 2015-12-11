@@ -44,7 +44,7 @@
     [self setTranslatesAutoresizingMaskIntoConstraints:NO];
     
     CGFloat cornerRadius = 6.0f;
-    self.backgroundTextViewColor = [JSQMessagesThemeColor jsq_getThemeColor];
+    self.backgroundTextViewColor = [UIColor whiteColor];
     self.backgroundColor = self.backgroundTextViewColor;
     self.layer.borderWidth = 0.5f;
     self.layer.borderColor = [UIColor clearColor].CGColor;

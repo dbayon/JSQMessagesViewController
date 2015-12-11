@@ -14,4 +14,10 @@
 + (UIColor*)jsq_getThemeColor;
 + (void)jsq_saveThemeColor:(UIColor*)themeColor;
 
++ (UIColor*)jsq_getBlueWugoColor;
++ (UIColor*)jsq_getIncomingBubbleColor;
++ (UIColor*)jsq_getOutcomingBubbleColor;
++ (UIColor*)jsq_getIncomingBubbleTextColor;
++ (UIColor*)jsq_getOutcomingBubbleTextColor;
+
 @end

@@ -493,10 +493,10 @@
     if (!msg.isMediaMessage) {
         
         if ([msg.senderId isEqualToString:self.senderId]) {
-            cell.textView.textColor = [UIColor whiteColor];
+            cell.textView.textColor = [JSQMessagesThemeColor jsq_getOutcomingBubbleTextColor];
         }
         else {
-            cell.textView.textColor = [JSQMessagesThemeColor jsq_getThemeColor];
+            cell.textView.textColor = [JSQMessagesThemeColor jsq_getIncomingBubbleTextColor];
         }
         
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : cell.textView.textColor,

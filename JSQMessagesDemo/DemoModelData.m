@@ -84,8 +84,8 @@
          */
         JSQMessagesBubbleImageFactory *bubbleFactory = [[JSQMessagesBubbleImageFactory alloc] init];
         
-        self.outgoingBubbleImageData = [bubbleFactory outgoingMessagesBubbleImageWithColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.2]];
-        self.incomingBubbleImageData = [bubbleFactory incomingMessagesBubbleImageWithColor:[UIColor whiteColor]];
+        self.outgoingBubbleImageData = [bubbleFactory outgoingMessagesBubbleImageWithColor:[JSQMessagesThemeColor jsq_getOutcomingBubbleColor]];
+        self.incomingBubbleImageData = [bubbleFactory incomingMessagesBubbleImageWithColor:[JSQMessagesThemeColor jsq_getIncomingBubbleColor]];
     }
     
     return self;

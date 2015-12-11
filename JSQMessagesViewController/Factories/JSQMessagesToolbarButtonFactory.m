@@ -49,8 +49,8 @@
 
     UIButton *sendButton = [[UIButton alloc] initWithFrame:CGRectZero];
     [sendButton setTitle:sendTitle forState:UIControlStateNormal];
-    [sendButton setTitleColor:[JSQMessagesThemeColor jsq_getThemeColor] forState:UIControlStateNormal];
-    [sendButton setTitleColor:[[JSQMessagesThemeColor jsq_getThemeColor] jsq_colorByDarkeningColorWithValue:0.1f] forState:UIControlStateHighlighted];
+    [sendButton setTitleColor:[JSQMessagesThemeColor jsq_getBlueWugoColor] forState:UIControlStateNormal];
+    [sendButton setTitleColor:[[JSQMessagesThemeColor jsq_getBlueWugoColor] jsq_colorByDarkeningColorWithValue:0.1f] forState:UIControlStateHighlighted];
     [sendButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateDisabled];
 
     sendButton.titleLabel.font = [UIFont boldSystemFontOfSize:17.0f];
@@ -59,7 +59,7 @@
     sendButton.contentMode = UIViewContentModeCenter;
     sendButton.backgroundColor = [UIColor clearColor];
     //sendButton.tintColor = [UIColor jsq_messageBubbleBlueColor];
-    sendButton.tintColor = [JSQMessagesThemeColor jsq_getThemeColor];
+    sendButton.tintColor = [JSQMessagesThemeColor jsq_getBlueWugoColor];
 
     CGFloat maxHeight = 32.0f;
 

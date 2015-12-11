@@ -30,4 +30,24 @@
     [defaults synchronize];
 }
 
++ (UIColor*)jsq_getBlueWugoColor {
+    return [UIColor colorWithRed:101.0/255.0f green:198.0f/255.0f blue:211.0f/255.0f alpha:1];
+}
+
++ (UIColor*)jsq_getIncomingBubbleColor {
+    return [UIColor colorWithRed:239.0/255.0f green:239.0f/255.0f blue:239.0f/255.0f alpha:1];
+}
+
++ (UIColor*)jsq_getOutcomingBubbleColor {
+    return [self jsq_getBlueWugoColor];
+}
+
++ (UIColor*)jsq_getIncomingBubbleTextColor {
+    return [UIColor colorWithRed:93.0/255.0f green:93.0f/255.0f blue:93.0f/255.0f alpha:1];
+}
+
++ (UIColor*)jsq_getOutcomingBubbleTextColor {
+    return [UIColor whiteColor];
+}
+
 @end
