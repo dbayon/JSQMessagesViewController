@@ -79,6 +79,8 @@
     
     self.inputToolbar.contentView.leftBarButtonItem = nil;
     self.showLoadEarlierMessagesHeader = NO;
+    
+    [self.collectionView setBackgroundColor:[UIColor blueColor]];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -433,26 +435,27 @@
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForMessageBubbleTopLabelAtIndexPath:(NSIndexPath *)indexPath
 {
-    JSQMessage *message = [self.demoData.messages objectAtIndex:indexPath.item];
-    
-    /**
-     *  iOS7-style sender name labels
-     */
-    if ([message.senderId isEqualToString:self.senderId]) {
-        return nil;
-    }
-    
-    if (indexPath.item - 1 > 0) {
-        JSQMessage *previousMessage = [self.demoData.messages objectAtIndex:indexPath.item - 1];
-        if ([[previousMessage senderId] isEqualToString:message.senderId]) {
-            return nil;
-        }
-    }
-    
-    /**
-     *  Don't specify attributes to use the defaults.
-     */
-    return [[NSAttributedString alloc] initWithString:[message.senderDisplayName uppercaseString]];
+//    JSQMessage *message = [self.demoData.messages objectAtIndex:indexPath.item];
+//    
+//    /**
+//     *  iOS7-style sender name labels
+//     */
+//    if ([message.senderId isEqualToString:self.senderId]) {
+//        return nil;
+//    }
+//    
+//    if (indexPath.item - 1 > 0) {
+//        JSQMessage *previousMessage = [self.demoData.messages objectAtIndex:indexPath.item - 1];
+//        if ([[previousMessage senderId] isEqualToString:message.senderId]) {
+//            return nil;
+//        }
+//    }
+//    
+//    /**
+//     *  Don't specify attributes to use the defaults.
+//     */
+//    return [[NSAttributedString alloc] initWithString:[message.senderDisplayName uppercaseString]];
+    return nil;
 }
 
 - (NSAttributedString *)collectionView:(JSQMessagesCollectionView *)collectionView attributedTextForCellBottomLabelAtIndexPath:(NSIndexPath *)indexPath
@@ -502,6 +505,7 @@
         cell.textView.linkTextAttributes = @{ NSForegroundColorAttributeName : cell.textView.textColor,
                                               NSUnderlineStyleAttributeName : @(NSUnderlineStyleSingle | NSUnderlinePatternSolid) };
     }
+    [cell setBackgroundColor:[UIColor redColor]];
     
     return cell;
 }
@@ -528,9 +532,9 @@
     if (indexPath.item % 3 == 0) {
         return kJSQMessagesCollectionViewCellLabelHeightDefault;
     }else{
-        return kJSQMessagesCollectionViewCellLabelHeightDefault;
+        //return kJSQMessagesCollectionViewCellLabelHeightDefault;
+        return 5.0f;
     }
-    
     //return 0.0f;
 }
 
@@ -540,19 +544,20 @@
     /**
      *  iOS7-style sender name labels
      */
-    JSQMessage *currentMessage = [self.demoData.messages objectAtIndex:indexPath.item];
-    if ([[currentMessage senderId] isEqualToString:self.senderId]) {
-        return 0.0f;
-    }
-    
-    if (indexPath.item - 1 > 0) {
-        JSQMessage *previousMessage = [self.demoData.messages objectAtIndex:indexPath.item - 1];
-        if ([[previousMessage senderId] isEqualToString:[currentMessage senderId]]) {
-            return 0.0f;
-        }
-    }
-    
-    return kJSQMessagesCollectionViewCellLabelHeightDefault;
+//    JSQMessage *currentMessage = [self.demoData.messages objectAtIndex:indexPath.item];
+//    if ([[currentMessage senderId] isEqualToString:self.senderId]) {
+//        return 0.0f;
+//    }
+//    
+//    if (indexPath.item - 1 > 0) {
+//        JSQMessage *previousMessage = [self.demoData.messages objectAtIndex:indexPath.item - 1];
+//        if ([[previousMessage senderId] isEqualToString:[currentMessage senderId]]) {
+//            return 0.0f;
+//        }
+//    }
+//    
+//    return kJSQMessagesCollectionViewCellLabelHeightDefault;
+    return 0.0f;
 }
 
 - (CGFloat)collectionView:(JSQMessagesCollectionView *)collectionView
