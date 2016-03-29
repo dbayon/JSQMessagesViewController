@@ -14,13 +14,14 @@
 @implementation JSQMessagesThemeColor
 
 + (UIColor*)jsq_getThemeColor {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    /*NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *hexColor = [defaults objectForKey:JSQ_THEME_COLOR];
     if(hexColor) {
         return [UIColor jsq_colorWithHexString:hexColor];
     } else {
         return [UIColor yellowColor];
-    }
+    }*/
+    return [UIColor colorWithRed:34.0f/255.0f green:158.0f/255.0f blue:177.0f/255.0f alpha:1];
 }
 
 + (void)jsq_saveThemeColor:(UIColor*)themeColor {
